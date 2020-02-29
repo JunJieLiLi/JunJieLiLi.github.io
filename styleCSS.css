@@ -1,0 +1,1227 @@
+body
+{
+   font-family:				     Verdana,Georgia;
+   font-size:					 15px;
+   padding:					     0px;
+   margin:						 0px;
+
+   background-image:			 url("beijing2.jpg");
+   background-position:		     center;
+   -webkit-background-repeat:    non-repeat;
+   background-size:			     cover;
+}
+
+#headerr
+{
+   /*background-color:			 red;*/
+   padding:					     0px;
+   height:						 110px;
+   height:						 110px;
+   width:						 1000px;
+   margin-top:                   50px;
+   margin-left:				     auto;
+   margin-right:				 auto;
+}
+
+#quoates_info
+{
+   /*background-color:         	 yellow;*/
+   width:						 450px;
+   margin-left:				     auto;
+   margin-right:				 auto;
+}
+
+#chinese_name
+{
+   /*background-color:         	pink;*/
+   width:						400px;
+   text-align:					center;
+   margin:                      0 10px 0px 0px;
+}
+
+#self_desc_p
+{
+   /*background-color:         	white;*/
+   width:						400px;
+   font-size:					40px;
+   text-align:					center;
+   margin:                      0px;
+}
+
+#quotess_p
+{
+   /*background-color:        	blue;*/
+   width:						450px;
+   text-align:					right;
+   margin:                      0px 10px 0px 0px;
+}
+
+#badges
+{
+   /*background-color:			green;*/
+   float:						right;
+   margin-top:					-80px;
+}
+
+.icon
+{
+   float:						right;
+   width:						80px;
+   height:						80px;
+   padding:					    10px;
+}
+
+#navigation_container
+{
+   /*background-color:             aqua;*/
+   width: 50px;
+}
+@media screen and (max-height: 450px)
+{
+   .sidenav
+   {
+      padding-top:              15px;
+   }
+
+   .sidenav a
+   {
+      font-size:                18px;
+   }
+}
+
+.sidenav
+{
+   /*height:                      600px;*/
+   width:                       0px;
+   position:                    fixed;
+   z-index:                     1;
+   top:                         200px;
+   left:                        0;
+   opacity:                     0.5;
+   overflow-x:                  hidden;
+   transition:                  0.5s;
+   padding-top:                 80px;
+}
+
+#close_btn
+{
+   text-decoration:             none;
+   position:                    absolute;
+   top:                         30px;
+   right:                       5px;
+   font-size:                   30px;
+   margin-left:                 50px;
+}
+.link_a
+{
+   padding:                     8px 8px 8px 32px;
+   text-decoration:             none;
+   border-style:                solid;
+   border-width:                1px;
+   border-radius: 				25px;
+   font-size:                   25px;
+   color:                       black;
+   display:                     block;
+   transition:                  0.3s;
+}
+
+.sidenav a:hover
+{
+   color:                       #f1f1f1;
+   background-color:            black;
+}
+
+.sidenav .closebtn
+{
+   position:                    absolute;
+   top:                         0;
+   right:                       25px;
+   font-size:                   36px;
+   margin-left:                 50px;
+}
+
+/*-- main section--*/
+#about_me_page
+{
+   /*background-color:			white;*/
+   border: 					    1px;
+   width:						1000px;
+   /*height:						1000px;*/
+
+   padding:					    0px;
+   margin:                      auto auto;
+
+}
+
+#body_container
+{
+  /* background-color:			pink;*/
+
+   /*float:						left;*/
+
+   margin:                      0px auto 50px auto;
+
+
+}
+#self_picture
+{
+   width:						900px;
+   height:						550px;
+   margin:                      auto auto 0px auto;
+
+}
+.zipai_image
+{
+   width:						900px;
+   height:						520px;
+
+}
+
+
+#self_description_p
+{
+   color:						black;
+}
+#button
+{
+   background-color:			rgb(255, 204, 0);
+   height:                      20px;
+   width:						200px;
+
+   border-radius: 				25px;
+   margin:                      auto auto auto auto;
+
+}
+
+#download_btn p
+{
+   text-decoration:			    none;
+   text-align:					center;
+}
+
+#personal_information
+{
+   /*background-color:            red;*/
+   margin-left:                 auto;
+   margin-right:                auto;
+}
+
+#titile
+{
+   /*background-color:            aqua;*/
+   list-style:				    none;
+   display:					    inline-block;
+   margin-left:                 300px;
+}
+
+#titile_info
+{
+   /*background-color:            green;*/
+   list-style:				    none;
+   display:					    inline-block;
+}
+/*-- link icons--*/
+
+#link_icons_container
+{
+   /*background-color:			green;*/
+   float:						left;
+   width:                       300px;
+   margin-left: 350px;
+}
+
+#facebook
+{
+   font-size: 50px;
+}
+#github
+{
+   font-size: 50px;
+}
+
+#instagram
+{
+   font-size: 50px;
+}
+
+#linkend
+{
+   font-size: 50px;
+}
+
+#link_icons_section
+{
+   width:						300px;
+}
+#link_icons_container ul
+{
+   /*background-color:			red;*/
+   height:						50px;
+   margin-bottom:				5px;
+   margin-top:					5px;
+
+
+}
+
+#link_icons_container ul li
+{
+   display:					    inline-block;
+   list-style:					none;
+   margin:                      0px 15px 5px 5px;
+   width:						40px;
+   height:						40px;
+}
+
+.icons
+{
+   font-size:					40px;
+}
+
+.icons:hover
+{
+   opacity:                     0.7;
+   color:                       #55ACEE;
+}
+
+
+
+/* end home page section*/
+
+/* start skill page section*/
+#skill_page
+{
+   /*background-color:			yellow;*/
+   /*height:						1000px;*/
+   width:						1000px;
+
+   margin-top:					500px;
+   margin-left:				    auto;
+   margin-right:				auto;
+}
+
+#skill_page_title_container
+{
+   /*background-color:			green;*/
+   margin-left:				    auto;
+   margin-right:				auto;
+   margin-top:					50px;
+
+   width:						800px;
+   height:						100px;
+}
+
+#skill_tittle h1
+{
+   /*background-color:			blue;*/
+   text-align:					center;
+
+}
+
+#skill_quoates h3
+{
+   /*background-color:			red;*/
+   text-align:					center;
+   margin:						0px;
+}
+
+#skill_section
+{
+   margin-left:				    auto;
+   margin-right:			 	auto;
+}
+
+#skills
+{
+   /*background-color:			green;*/
+
+}
+
+
+/*begin web develep exp*/
+
+#WEBDEVELOPMENT_EXPERIENCE_container
+{
+   /*background-color:			pink;*/
+   display:					    inline-block;   /*put elements in the same line*/
+   /*float:						left;*/
+   height:						400px;
+   width:						400px;
+   /*margin-top:					100px;*/
+   margin-left:				    50px;
+}
+
+#web_description
+{
+   /*background-color:			red;*/
+}
+#web_description h3
+{
+   text-align:					left;
+}
+
+#web_description p
+{
+   text-align:					left;
+}
+
+#graph_cantainer
+{
+   /*background-color:			white;*/
+}
+
+#php_skill_conatiner h3
+{
+   /*background-color:			blue;*/
+   margin:						0px;
+}
+
+#php_percentage_bar p
+{
+   background-color:			yellow;
+   width:						77%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#html_conatiner
+{
+   margin-top:					15px;
+}
+
+#html_conatiner h3
+{
+   /*background-color:			purple;*/
+   margin:						0px;
+}
+
+#html_percentage_bar p
+{
+   background-color:			yellow;
+   width:						60%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#javascript_conatiner
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#javascript_conatiner h3
+{
+   /*background-color:			green;*/
+   margin:						0px;
+}
+
+#javascript_percentage_bar p
+{
+   background-color:			yellow;
+   width:						79%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#restful_conatiner
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#restful_conatiner h3
+{
+   /*background-color:			red;*/
+   margin:						0px;
+}
+
+#rest_percentage_bar p
+{
+   background-color:			yellow;
+   width:						75%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#json_conatiner
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#json_conatiner h3
+{
+   /*background-color:			red;*/
+   margin:						0px;
+}
+
+#jason_percentage_bar p
+{
+   background-color:			yellow;
+   width:						75%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+/*end of web develep exp*/
+
+
+/*begin application develep exp*/
+#application_development_container
+{
+   /*background-color:			purple;*/
+   display:					    inline-block;
+   float:						right;
+   height:						400px;
+   width:						400px;
+   margin-right:				50px;
+
+}
+
+#application_description
+{
+   /*background-color:			pink;*/
+}
+
+#application_description h3
+{
+   text-align:					left;
+}
+
+#application_description p
+{
+   text-align:					left;
+}
+
+#application_description
+{
+   text-align:					left;
+}
+#application_graph_container
+{
+   /*background-color:			green;*/
+}
+
+#application_graph_container h3
+{
+   /*background-color:			red;*/
+   margin:						0px;
+}
+
+#cpp_percentage_bar p
+{
+   background-color:			yellow;
+   width:						80%;
+   text-align:					right;
+   margin:						0px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+
+}
+
+#objective_C_container
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#objective_C_container h3
+{
+   /*background-color:			blue;*/
+   margin:						0px;
+}
+
+#objective_C_container p
+{
+   background-color:			yellow;
+   margin:						0px;
+   width:						70%;
+   text-align:					right;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+
+#c_sharp_container
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#c_sharp_container h3
+{
+   /*background-color:			blue;*/
+   margin:						0px;
+}
+
+#c_sharp__percentage_bar p
+{
+   background-color:			yellow;
+   margin:						0px;
+   width:						80%;
+   text-align:					right;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#java_container
+{
+   /*background-color:			white;*/
+   margin-top:					20px;
+}
+
+#java_container h3
+{
+   /*background-color:			blue;*/
+   margin:						0px;
+}
+
+#java_percentage_bar p
+{
+   background-color:			yellow;
+   margin:						0px;
+   width:						80%;
+   text-align:					right;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+/*end of application develep exp*/
+
+/*begin of language section*/
+
+#language
+{
+   /*background-color:			pink;*/
+   /*width:						500px;*/
+   height:						110px;
+   margin-top:					50px;
+   margin-bottom:				30px;
+}
+
+#langue_opts
+{
+   /*background-color:			blue;*/
+   margin-left:				50px;
+}
+
+#enlgishs p
+{
+   /*background-color:			green;*/
+}
+
+#chinese p
+{
+   /*background-color:			red;*/
+}
+/*end of language section*/
+
+
+/*begin of Tool section*/
+#skills_container
+{
+   /*background-color:			white;*/
+   float:						left;
+   width:						800px;
+   margin-top:					10px;
+}
+
+#familiality_inner_container
+{
+   margin-left:				    50px;
+}
+.tool_name
+{
+   /*background-color:			pink;*/
+
+}
+
+.skill_title
+{
+   /*background-color:			blue;*/
+   display:					    inline-block;
+   width:						100px;
+   height:						30px;
+   text-align:					justify;
+}
+
+#visual_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						85%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#Notepadpp_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						80%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#webstorm_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						80%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#git_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#xcode_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#eclipse_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						80%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+.p_info
+{
+   background:					yellow;
+   height:						30px;
+   margin:						0px;
+   text-align:					right;
+}
+
+#skills_container2
+{
+   /*background-color:			white;*/
+   float:						left;
+   width:						800px;
+   margin-top:					10px;
+
+}
+#familiality_inner_container2
+{
+   margin-left:				    50px;
+}
+
+#netBeans_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#photoshop_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						70%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#sql_server_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#access_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+
+#pycharm_skill_percentage_bar
+{
+   /*background-color:			yellow;*/
+   display:					    inline-block;
+   width:						75%;
+   height:						30px;
+   border-style:                solid;
+   border-color:                gainsboro;
+   border-width:                1px;
+}
+/*end of Tool section*/
+
+/*end of ability page*/
+
+/*start of education page*/
+#education_page
+{
+   /*background-color:		pink;*/
+   /*height:					1000px;*/
+   width:					    1000px;
+   /*height:					1000px;*/
+   margin-top:				    1000px;
+   margin-left:			        auto;
+   margin-right:			    auto;
+}
+#education_title_container
+{
+   /*background-color:		blue;*/
+}
+#education_tittle
+{
+   /*background-color:		grey;*/
+}
+#education_tittle h1
+{
+   /*background-color:		green;*/
+   text-align:				    center;
+   margin:					    0px;
+}
+
+#education_quoates
+{
+   /*background-color:		red;*/
+   text-align:				    center;
+}
+
+#education_quoates h3
+{
+   /*background-color:		red;*/
+}
+
+#time_line_container
+{
+   /*background-color:		green;*/
+
+}
+
+.school_name
+{
+   /*background-color:		grey;*/
+   display:				      inline-block;
+   width:					  400px;
+   margin-right:			  100px;
+
+}
+
+.major_desc
+{
+   /*background-color:		yellow;*/
+   display:				     inline-block;
+}
+
+.year_and_desc
+{
+   /*background-color:		purple;*/
+   margin:					0px;
+}
+
+.year_attend
+{
+   /*background-color:		red;*/
+   width:					400px;
+   margin-right:			100px;
+
+}
+
+.program_desc
+{
+   /*background-color:		white;*/
+   margin-left:			     500px;
+   margin-top:				-40px;
+   width:					400px;
+
+}
+
+#career_container
+{
+   /*background-color:		white;*/
+}
+
+#carrer_desc
+{
+   /*background-color:		grey;*/
+}
+
+#company_name
+{
+   /*background-color:		red;*/
+   width:					400px;
+   display:				    inline-block;
+   margin-right:			100px;
+}
+
+#occupation_title
+{
+   /*background-color:		green;*/
+   display:				    inline-block;
+}
+
+/*end of education page*/
+
+/*start of profolio page*/
+#portfolio_page
+{
+   /*background-color:		blue;*/
+   /*height:					1000px;*/
+   width:					1000px;
+
+   margin-top:				500px;
+   margin-left:			    auto;
+   margin-right:			auto;
+}
+
+#profolio_title_container
+{
+  /* background-color:		yellow;*/
+}
+
+#portfolio_tittle
+{
+   /*background-color:		pink;*/
+   text-align:				center;
+}
+
+#portfolio_quoates h3
+{
+   text-align:				center;
+}
+
+#portfolio_menu
+{
+   background-color:		grey;
+}
+
+#myBtnContainer
+{
+   text-align:				center;
+   margin-top:              40px;
+}
+
+*
+{
+   box-sizing:             border-box;
+}
+
+h1
+{
+   font-size:              50px;
+   word-break:             break-all;
+}
+
+.row
+{
+   margin:                 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column
+{
+   padding:                8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column
+{
+   float:                  left;
+   width:                  33.33%;
+   display:                none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after
+{
+   content:                "";
+   display:                table;
+   clear:                  both;
+
+}
+
+/* Content */
+.content
+{
+   background-color:       white;
+   padding:                10px;
+   height:                 400px;
+   border-radius:          20px;
+
+}
+
+.myImge
+{
+   height:                 250px;
+   width:                  250px;
+   border-radius:          20px;
+}
+
+.myImge:hover
+{
+   box-shadow:             0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* The "show" class is added to the filtered elements */
+.show
+{
+   display:                block;
+}
+
+/* Style the buttons */
+.btn
+{
+   border:                 none;
+   outline:                none;
+   padding:                12px 16px;
+   background-color:       white;
+   cursor:                 pointer;
+   border-radius:          20px;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover
+{
+   background-color:       #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active
+{
+   background-color:       #666;
+   color:                  white;
+}
+
+.code_link
+{
+   float:                  left;
+   text-decoration:        none;
+}
+
+.demo_link
+{
+   float:                  right;
+   text-decoration:        none;
+}
+
+/*end of portfolio page*/
+
+/*start of contact page*/
+#contact_page
+{
+   /*background-color:		pink;*/
+   /*height:					1000px;*/
+   width:					1000px;
+
+   margin-top:				500px;
+   margin-left:			    auto;
+   margin-right:			auto;
+}
+
+#contact_pagetitle h1
+{
+   text-align:				center;
+}
+
+#contact_quote h3
+{
+   text-align:				center;
+}
+
+#contact_info_container
+{
+   /*background-color:		green;*/
+   /*width:					450px;*/
+   height:					500px;
+}
+
+#contac_infor_title
+{
+	/*background-color:		pink;*/
+}
+
+#skypeContainer
+{
+	/*background-color:		blue;*/
+	width:					23%;
+	margin-left:			2%; 
+	display:				inline-block;
+	margin-top:				20%;
+}
+
+#emailContainer
+{
+	/*background-color:		red;*/
+	width:					23%;
+	display:				inline-block
+}
+
+#phoneContainer
+{
+	/*background-color:		grey;*/
+	width:					23%;
+	display:				inline-block
+}
+
+#addressContainer
+{
+	/*background-color:		yellow;*/
+	width:					25%;
+	display:				inline-block
+}
+
+.fas
+{
+   font-size:				60px;
+   margin-right:			15px;
+   color:					#00aff0;
+}
+
+.fab
+{
+   font-size:				60px;
+   margin-right:			15px;
+   color:					#00aff0;
+}
+
+
+#leave_message_container
+{
+   /*background-color:		yellow;*/
+   width:					450px;
+   height:					500px;
+   float:					right;
+   margin-right:			50px;
+}
+
+.formm
+{
+   margin-top:				20px;
+}
+
+.message_area
+{
+   margin-top:				20px;
+   width:					300px;
+   height:					300px;
+}
+
+#wechart_container
+{
+	float: 					right;
+}
+
+.weQR
+{
+	width:					50px;
+   height:					50px;
+}
+#foot_container
+{
+}
+
+#footer
+{
+	margin-top:				5%;
+	text-align:				center;
+	
+}
+#send_msg_button
+{
+   margin-top:				20px;
+}
+
+/*end of contact page*/
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+   display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+

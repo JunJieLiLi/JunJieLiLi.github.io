@@ -1,0 +1,562 @@
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Project Name: My personal website
+	
+	Description:  This is a my personal resume website that I created for myself. In this project, I used HTML,CSS, Javascript for Front-end.
+				  For the Back-end I used Java Serverlet, Java, JDBC and MySQL which will be hosted on my Godaddy later. The whole personal website source code 
+                  will be posted on my GitHub account under MyResume repository.		
+				  
+	Note:         This project will be keep updated 
+	
+	Author:       Pablo Li	(JunJie Li)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet"  href="styleCSS.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <script src="scripts.js"></script>
+	</head>
+		
+	<body>
+    <!-- header section-->
+        <div id="headerr">
+            <div id="quoates_info">
+                 <h1 id="self_desc_p">Pablo Li </h1>
+                <h3 id= "chinese_name">李俊傑, SOFTWARE DEVELOPER</h3>
+                <p id="quotess_p"> -千里之行，始於足下 </p>
+            </div>
+
+           <div id="badges">
+
+            <a href="http://www.agincourtcollegiate.ca/" target="_blank">
+                <img class="icon" src="aci.png" >
+            </a>
+
+            <a href="https://www.mun.ca/" target="_blank">
+                <img class="icon" src="mun.png" >
+            </a>
+            </div>
+        </div>
+
+        <div id="about_me_page">
+            <div id="about_me_container">
+                <!-- home page content-->
+                <!-- main section-->
+                <div id="body_container">
+                    <div id="navigation_container">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" id="close_btn"  onclick="closeNav()">&times;</a>
+                            <a class="link_a"href="#headerr">About me</a>
+                            <a class="link_a"href="#skill_page">Ability</a>
+                            <a class="link_a"href="#education_page">Experience</a>
+                            <a class="link_a"href="#portfolio_page">Portfolio</a>
+							<!--<a class="link_a"href="test.html">Vlog</a>--> <!-- developing a personal website-->
+                            <a class="link_a"href="#contact_page">Contact</a>
+
+
+                        </div>
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                    <!-- picuture section-->
+                    <div id="self_picture">
+                        <img class="zipai_image" src="zipai.jpg" id="zipaizhao" alt="zipai">
+                    </div>
+
+                    <!-- download-->
+                    <div id="button">
+                        <a href="PabloResume.pdf" download  id="download_btn"  >
+                            <p>Download Resume</p>
+                        </a>
+                    </div>
+
+                    <!-- self description section-->
+                    <div id ="self_description" >
+                        <p id="self_description_p">
+                            A highly organised IT software developer who has a proven track record of using good engineering
+                            practice to produce software for new, innovative and profitable products and solutions. My
+                            strength is the ability to work on the development of software systems by accurately
+                            interpreting user requirements, then creating the required software designs, coding and
+                            testing them and finally integrating the software.
+                        </p>
+                    </div>
+
+                    <div id="personal_information">
+
+                        <ul id="titile">
+                            <li>
+                                <a>Occupation</a>
+                            </li>
+                            <li>
+                                <a>Nationality</a>
+                            </li>
+                        </ul>
+
+                        <ul id="titile_info">
+                            <li>
+                                <a>Software Developer at Cadsoft Corporation</a>
+                            </li>
+                            <li>
+                                <a>Canadian</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- link icons-->
+                    <div id="link_icons_section">
+                        <div id="link_icons_container">
+                            <ul id="icon_link">
+                                <li>
+                                    <a class="icons" href="https://www.facebook.com/pablo.ljj"  target="_blank">
+                                        <i class="fab fa-facebook" id="facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icons" href="https://github.com/JunJieLiLi"  target="_blank">
+                                        <i class="fab fa-github" id="github"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icons" href="https://www.instagram.com/"  target="_blank">
+                                        <i class="fab fa-instagram" id="instagram"></i>
+                                    </a >
+                                </li>
+                                <li>
+                                    <a class="icons" href="https://www.linkedin.com/notifications/"  target="_blank">
+                                        <i class="fab fa-linkedin" id="linkend"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end about_me_container content-->
+
+        </div> <!--end of about me page-->
+
+        <!-- ability page page-->
+        <div id="skill_page">
+            <div id="skill_page_title_container">
+                <div id="skill_tittle">
+                    <h1>Ability</h1>
+                </div>
+
+                <div id="skill_quoates">
+                    <h3>"Life without knowledge is death in disguise"</h3>
+                </div>
+            </div>
+
+            <div id="skills">
+                <h2>Skills</h2>
+            </div>
+
+            <div id="WEBDEVELOPMENT_EXPERIENCE_container">
+                <div id="web_description">
+                    <h3>WEBDEVELOPMENT EXPERIENCE</h3>
+                    <p>The following skills I used the most to implement some of my website projects
+                       for Front-end and Back-end development</p>
+                </div>
+                <div id="graph_cantainer">
+                    <div id="php_skill_conatiner">
+                        <h3>PHP & MySql</h3>
+                        <div id="php_percentage_bar">
+                            <p>77%</p>
+                        </div>
+                    </div>
+
+                    <div id="html_conatiner">
+                        <h3>HTML & CSS</h3>
+                        <div id="html_percentage_bar">
+                            <p>73%</p>
+                        </div>
+                    </div>
+
+                    <div id="javascript_conatiner">
+                        <h3>Javascript</h3>
+                        <div id="javascript_percentage_bar">
+                            <p>79%</p>
+                        </div>
+                    </div>
+
+                    <div id="restful_conatiner">
+                        <h3>Restful</h3>
+                        <div id="rest_percentage_bar">
+                            <p>75%</p>
+                        </div>
+                    </div>
+
+                    <div id="json_conatiner">
+                        <h3>Json</h3>
+                        <div id="jason_percentage_bar">
+                            <p>75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="application_development_container">
+                <div id="application_description">
+                    <h3>APPLICATION EXPERIENCE</h3>
+                    <p>I have good knowledge of using following object oriented languages to implement applications</p>
+                </div>
+
+                <div id="application_graph_container">
+                    <div id="cpp_container">
+                        <h3>C++</h3>
+                        <div id="cpp_percentage_bar">
+                            <p>80%</p>
+                        </div>
+                    </div>
+
+                    <div id="objective_C_container">
+                        <h3>Objective C</h3>
+                        <div id="objective_c_percentage_bar">
+                            <p>70%</p>
+                        </div>
+                    </div>
+
+                    <div id="c_sharp_container">
+                        <h3>C#</h3>
+                        <div id="c_sharp__percentage_bar">
+                            <p>80%</p>
+                        </div>
+                    </div>
+
+                    <div id="java_container">
+                        <h3>Java</h3>
+                        <div id="java_percentage_bar">
+                            <p>80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--language section-->
+            <div id="language">
+                <h2>Language</h2>
+                <div id="langue_opts">
+                    <div id="enlgishs">
+                        <p>English ((Daily use)</p>
+                    </div>
+                    <div id="chinese">
+                        <p>Chinese (Mother tongue)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--familiality section-->
+            <div id="skills_container">
+                <div class="skill_title_des">
+                    <h2>Familiality</h2>
+                </div>
+
+                <div id="familiality_inner_container">
+                    <div class="tool_name">
+                        <p class="skill_title">Visual Studio</p>
+                        <div id="visual_skill_percentage_bar">
+                            <p class="p_info">85%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">Notepad++</p>
+                        <div id="Notepadpp_skill_percentage_bar">
+                            <p class="p_info">80%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">WebStorm</p>
+                        <div id="webstorm_skill_percentage_bar">
+                            <p class="p_info">80%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">Git</p>
+                        <div id="git_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">XCode</p>
+                        <div id="xcode_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">Eclipse</p>
+                        <div id="eclipse_skill_percentage_bar">
+                            <p class="p_info">80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills_container2">
+                <div class="skill_title_des">
+                </div>
+
+                <div id="familiality_inner_container2">
+                    <div class="tool_name">
+                        <p class="skill_title">NetBeans</p>
+                        <div id="netBeans_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">Photoshop</p>
+                        <div id="photoshop_skill_percentage_bar">
+                            <p class="p_info">70%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">SQL Server</p>
+                        <div id="sql_server_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">MS Access</p>
+                        <div id="access_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+
+                    <div class="tool_name">
+                        <p class="skill_title">Pycharm</p>
+                        <div id="pycharm_skill_percentage_bar">
+                            <p class="p_info">75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- experience page -->
+        <div id="education_page">
+            <div id="education_title_container">
+                <div id="education_tittle">
+                    <h1>Experience</h1>
+                </div>
+                <div id="education_quoates">
+                    <h3>"Nothing ever becomes real 'til it is experienced"</h3>
+                </div>
+            </div>
+
+            <div id="education">
+                <h2>Education</h2>
+            </div>
+
+            <div id="time_line_container">
+                <div id="university_container">
+                    <div id="university_desc">
+                        <div class="school_name">
+                            <h3>Memorial Univeristy of Newfoundland</h3>
+                        </div>
+
+                        <div class="major_desc">
+                            <h3>Bachelor - Computer Science</h3>
+                        </div>
+                    </div>
+
+                    <div class="year_and_desc">
+                        <div class="year_attend">
+                            <h3>2010 - 2017</h3>
+                        </div>
+                        <div class="program_desc">
+                            <p> Focused on computer science courses  </p>
+                        </div>
+                    </div>
+
+                    <div class="school_name">
+                        <h3>Agincourt Collegiate Institute </h3>
+                    </div>
+
+                    <div class="major_desc">
+                        <h3>High school diploma</h3>
+                    </div>
+
+                    <div class="year_and_desc">
+                        <div class="year_attend">
+                            <h3>2006 - 2010</h3>
+                        </div>
+                        <div class="program_desc">
+                            <p>Focused on computer science courses</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="Careers">
+                <h2>Careers</h2>
+            </div>
+
+            <div id="career_container">
+                <div id="carrer_desc">
+                    <div id="company_name">
+                        <h3>Cadsoft Corporation</h3>
+                    </div>
+
+                    <div id="occupation_title">
+                        <h3>Application Developer</h3>
+                    </div>
+                </div>
+
+                <div id="year_and_desc">
+                    <div class="year_attend">
+                        <h3>2018 - Present</h3>
+                    </div>
+                    <div class="program_desc">
+                        <li>
+                            Implement new features and enhancements using C++ for 2D/3D architectural design modeling
+                        </li>
+                        <br>
+
+                        <li>
+                            Designed and implemented new features using dynamic polymorphism,
+                            STL containers and templating to ensure the maintainability and reusability
+                        </li>
+                        <br>
+
+                        <li>
+                            Designed and implemented Graphical User Interface
+                        </li>
+                        <br>
+
+                        <li>
+                            Identified and documented bugs and fixed bugs in a timely manner
+                        </li>
+                        <br>
+
+                        <li>
+                            Designed a new feature to transform and store data in XML
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+        </div> <!--end of experience page-->
+
+        <!-- portfolio page -->
+        <div id="portfolio_page">
+            <div id="profolio_title_container">
+                <div id="portfolio_tittle">
+                    <h1>Portfolio</h1>
+                </div>
+
+                <div id="portfolio_quoates">
+                    <h3>"Education is not preparation for life; education is life itself"</h3>
+                </div>
+				
+				<h3>Under Construction...</h3>
+            </div>
+
+        </div>  <!--end of portfolio page-->
+
+        <!-- contact page -->
+        <div id="contact_page">
+            <div id="contact_titile_container">
+                <div id="contact_pagetitle">
+                    <h1>Contact</h1>
+                </div>
+                <!--
+				<div id="contact_quote">
+                    <h3></h3>
+                </div>
+				-->
+				
+            </div>
+
+            <div id="contact_info_container">
+				<!--
+				<div id="contac_infor_title">
+                    <h3>Contact Info</h3>
+                </div>
+				-->
+                
+
+                <div id="skypeContainer">
+                    <div class="info_icon">
+                        <a class="contact_icon" target="_blank">
+                            <i class="fab fa-skype"  id="contex"></i>
+                        </a>
+                    </div>
+
+                    <div class="info_desc">
+                        <h3>Skype</h3>
+                        <p>pablo_li@hotmail.com</p>
+                    </div>
+                </div>
+				
+                <div id="emailContainer">
+                    <div class="info_icon">
+                        <a class="contact_icon" target="_blank">
+                            <i class="fas fa-envelope-open-text" id="email"></i>
+                        </a>
+                    </div>
+
+                    <div class="info_desc">
+                        <h3>Email</h3>
+                        <p>jjl433@mun.ca</p>
+                    </div>
+                </div>
+
+                <div id="phoneContainer">
+                    <div class="info_icon">
+                        <a class="contact_icon" target="_blank">
+                            <i class="fas fa-phone-square"  id="tel" ></i>
+                        </a>
+                    </div>
+
+                    <div class="info_desc">
+                        <h3>Telephone</h3>
+                        <p>4375803023</p>
+                    </div>
+                </div>
+
+                <div id="addressContainer">
+                    <div class="info_icon">
+                        <a class="contact_icon" target="_blank">
+                            <i class="fas fa-map-marker-alt"  id="adreess"></i>
+                        </a>
+                    </div>
+
+                    <div class="info_desc">
+                        <h3>Address</h3>
+                        <p>16 Sonmore, Scarborough On</p>
+                    </div>
+                </div>
+              
+                <div id="footer">
+                    &copy; Pablo Li (JunJie Li). All Rights Reserved.
+                </div>
+              
+                <div id="foot_container">
+	                <!-- wechart QR-->
+	                <div id="wechart_container">
+	                    <div id="wechart_R_code">
+	                       <a target="_blank" href="RQ.png">
+	                           <img img class="weQR" src="RQ.png" alt="wechart rq" >
+	                       </a>
+	                   </div>
+	             </div>
+            </div>
+                       
+        </div>  <!--end of contact page-->
+
+
+    </body>
+</html>
